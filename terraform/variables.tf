@@ -20,7 +20,6 @@ variable "key_project_id" {
 variable "key_admin_email" {
   description = "Your Google mail address, e.g. johndoe@gmail.com"
   type        = string
-  default     = "prj-key-management-001"
 }
 
 variable "machine_type" {

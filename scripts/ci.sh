@@ -1,10 +1,8 @@
 #!/bin/bash
-
-# TODO:
-# - tests
+set -e
 
 repo=$(terraform -chdir=../terraform output -raw artifact_registry_repository)
-tag="v1.0.1"
+tag="v1.0.0"
 tagged_image="$repo/run-hello:$tag"
 
 # build image
