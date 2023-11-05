@@ -58,7 +58,7 @@ key in Cloud KMS.
 
 ```bash
 cd src
-./ci.sh
+../scripts/ci.sh
 ```
 
 This will build your container image, tag it, produce a SBOM with **syft**
@@ -80,7 +80,7 @@ Now you have a signed and verifiable container image in Artifact Registry.
 
 ```bash
 cd src
-./cd.sh
+../scripts/cd.sh
 ```
 
 In this way, first, you verify the container signature, then you pretend to
