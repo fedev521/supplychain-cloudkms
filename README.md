@@ -10,6 +10,7 @@ container to Cloud Run.
   - [2. Run CI](#2-run-ci)
   - [3. Fix the Vulnerability](#3-fix-the-vulnerability)
   - [4. Run CD](#4-run-cd)
+- [TIL](#til)
 
 
 ## Prerequisites
@@ -86,3 +87,11 @@ cd src
 In this way, first, you verify the container signature, then you pretend to
 deploy to GCP. If you really want to deploy on Google Cloud, you can uncomment
 the contents of `run.tf` and run `terraform apply`.
+
+## TIL
+
+- [SLSA](https://slsa.dev/) framework
+- [SolarWinds attack](https://www.aquasec.com/cloud-native-academy/supply-chain-security/solarwinds-attack/)
+- [cosign](https://docs.sigstore.dev/signing/signing_with_containers/)
+- Syft and Grype
+- signing commits
